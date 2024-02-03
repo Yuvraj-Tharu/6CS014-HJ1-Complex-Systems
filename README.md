@@ -13,3 +13,6 @@ goal locations (e.g. delivery or collection locations) in your waypoint graph.
 The agent should plan the shortest route that starts at the start location (e.g. 
 delivery depot), visits each delivery or drop-off location and returns to the start 
 location.
+
+////
+When the agent reaches the goal point, the ACO script is disabled and the pathfing script is enabled. The agent then returns to the starting point using the A* algorithm.
